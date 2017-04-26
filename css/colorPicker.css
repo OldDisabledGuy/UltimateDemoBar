@@ -1,0 +1,34 @@
+#stcontainer form.stform ul li div div.colorPicker-picker {
+  height: 16px;
+  width: 16px;
+  padding: 0 !important;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  line-height: 16px;
+  font-size:0.75em;
+  font-weight:bold;
+  text-align: center;
+}
+
+#stcontainer form.stform ul li div div.colorPicker-palette {
+  width: 216px;
+  position: absolute;
+  border: 1px solid #DFDFDF;
+  background-color: #F5F5F5;
+  top: 0 !important;
+  padding: 2px;
+  z-index: 9999;
+}
+  #stcontainer form.stform ul li div div.colorPicker_hexWrap {width: 100%; float:left }
+  #stcontainer form.stform ul li div div.colorPicker_hexWrap label {font-size: 95%; color: #2F2F2F; margin: 5px 2px; width: 25%}
+  #stcontainer form.stform ul li div div.colorPicker_hexWrap input {margin: 5px 2px; padding: 0; font-size: 95%; border: 1px solid #DFDFDF; width: 65%; }
+
+#stcontainer form.stform ul li div div.colorPicker-swatch {
+  height: 12px;
+  width: 12px;
+  border: 1px solid #000;
+  margin: 2px;
+  float: left;
+  cursor: pointer;
+  line-height: 12px;
+}
